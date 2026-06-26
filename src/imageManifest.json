@@ -1,0 +1,290 @@
+{
+  "residential": [
+    {
+      "full": "/images/work/residential/under-sink-garbage-disposal.jpg",
+      "thumb": "/images/work/residential/under-sink-garbage-disposal-thumb.jpg",
+      "w": 1600,
+      "h": 900
+    },
+    {
+      "full": "/images/work/residential/kitchen-sink-disposal-install.jpg",
+      "thumb": "/images/work/residential/kitchen-sink-disposal-install-thumb.jpg",
+      "w": 1600,
+      "h": 1200
+    },
+    {
+      "full": "/images/work/residential/under-cabinet-drain-trap.jpg",
+      "thumb": "/images/work/residential/under-cabinet-drain-trap-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/residential/exterior-hose-bib-install.jpg",
+      "thumb": "/images/work/residential/exterior-hose-bib-install-thumb.jpg",
+      "w": 1600,
+      "h": 1200
+    },
+    {
+      "full": "/images/work/residential/supply-valve-install.jpg",
+      "thumb": "/images/work/residential/supply-valve-install-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/residential/ceiling-copper-rough-in.jpg",
+      "thumb": "/images/work/residential/ceiling-copper-rough-in-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/residential/copper-manifold-closeup.jpg",
+      "thumb": "/images/work/residential/copper-manifold-closeup-thumb.jpg",
+      "w": 900,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/residential/bathroom-supply-lines.jpg",
+      "thumb": "/images/work/residential/bathroom-supply-lines-thumb.jpg",
+      "w": 900,
+      "h": 1600
+    }
+  ],
+  "water-heating": [
+    {
+      "full": "/images/work/water-heating/tankless-water-heater-closet-install.jpg",
+      "thumb": "/images/work/water-heating/tankless-water-heater-closet-install-thumb.jpg",
+      "w": 739,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/water-heating/tankless-water-heater-expansion-tank.jpg",
+      "thumb": "/images/work/water-heating/tankless-water-heater-expansion-tank-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/water-heating/tankless-unit-copper-manifold.jpg",
+      "thumb": "/images/work/water-heating/tankless-unit-copper-manifold-thumb.jpg",
+      "w": 360,
+      "h": 480
+    },
+    {
+      "full": "/images/work/water-heating/tankless-heater-electrical-panel.jpg",
+      "thumb": "/images/work/water-heating/tankless-heater-electrical-panel-thumb.jpg",
+      "w": 360,
+      "h": 480
+    },
+    {
+      "full": "/images/work/water-heating/tankless-heater-night-install.jpg",
+      "thumb": "/images/work/water-heating/tankless-heater-night-install-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/water-heating/water-heater-closet-copper-runs.jpg",
+      "thumb": "/images/work/water-heating/water-heater-closet-copper-runs-thumb.jpg",
+      "w": 768,
+      "h": 1024
+    },
+    {
+      "full": "/images/work/water-heating/tankless-garage-install.jpg",
+      "thumb": "/images/work/water-heating/tankless-garage-install-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/water-heating/tankless-install-in-progress.jpg",
+      "thumb": "/images/work/water-heating/tankless-install-in-progress-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/water-heating/tankless-copper-piping-closeup.jpg",
+      "thumb": "/images/work/water-heating/tankless-copper-piping-closeup-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/water-heating/tankless-heater-wall-mount.jpg",
+      "thumb": "/images/work/water-heating/tankless-heater-wall-mount-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/water-heating/tankless-heater-finished-install.jpg",
+      "thumb": "/images/work/water-heating/tankless-heater-finished-install-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/water-heating/exterior-tankless-wall-unit.jpg",
+      "thumb": "/images/work/water-heating/exterior-tankless-wall-unit-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/water-heating/exterior-tankless-stucco-wall.jpg",
+      "thumb": "/images/work/water-heating/exterior-tankless-stucco-wall-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    }
+  ],
+  "commercial": [
+    {
+      "full": "/images/work/commercial/commercial-corridor-copper-overhead.jpg",
+      "thumb": "/images/work/commercial/commercial-corridor-copper-overhead-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/commercial/commercial-hallway-pipe-run.jpg",
+      "thumb": "/images/work/commercial/commercial-hallway-pipe-run-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/commercial/commercial-distribution-panel-room.jpg",
+      "thumb": "/images/work/commercial/commercial-distribution-panel-room-thumb.jpg",
+      "w": 1600,
+      "h": 1200
+    },
+    {
+      "full": "/images/work/commercial/commercial-manifold-wall-install.jpg",
+      "thumb": "/images/work/commercial/commercial-manifold-wall-install-thumb.jpg",
+      "w": 1600,
+      "h": 1200
+    },
+    {
+      "full": "/images/work/commercial/commercial-manifold-install-2.jpg",
+      "thumb": "/images/work/commercial/commercial-manifold-install-2-thumb.jpg",
+      "w": 1600,
+      "h": 1200
+    },
+    {
+      "full": "/images/work/commercial/commercial-mechanical-room-units.jpg",
+      "thumb": "/images/work/commercial/commercial-mechanical-room-units-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/commercial/commercial-mechanical-room-wide.jpg",
+      "thumb": "/images/work/commercial/commercial-mechanical-room-wide-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/commercial/commercial-panel-rough-in.jpg",
+      "thumb": "/images/work/commercial/commercial-panel-rough-in-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/commercial/commercial-mechanical-room-column.jpg",
+      "thumb": "/images/work/commercial/commercial-mechanical-room-column-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    }
+  ],
+  "boiler": [
+    {
+      "full": "/images/work/boiler/boiler-new.jpg",
+      "thumb": "/images/work/boiler/boiler-new-thumb.jpg",
+      "w": 480,
+      "h": 640
+    },
+    {
+      "full": "/images/work/boiler/commercial-water-heater-bank.jpg",
+      "thumb": "/images/work/boiler/commercial-water-heater-bank-thumb.jpg",
+      "w": 1600,
+      "h": 1200
+    },
+    {
+      "full": "/images/work/boiler/commercial-water-heater-copper.jpg",
+      "thumb": "/images/work/boiler/commercial-water-heater-copper-thumb.jpg",
+      "w": 1600,
+      "h": 1200
+    },
+    {
+      "full": "/images/work/boiler/boiler-storage-tank-rooftop.jpg",
+      "thumb": "/images/work/boiler/boiler-storage-tank-rooftop-thumb.jpg",
+      "w": 1600,
+      "h": 1200
+    },
+    {
+      "full": "/images/work/boiler/boiler-tank-copper-piping.jpg",
+      "thumb": "/images/work/boiler/boiler-tank-copper-piping-thumb.jpg",
+      "w": 1600,
+      "h": 1200
+    },
+    {
+      "full": "/images/work/boiler/boiler-room-commercial.jpg",
+      "thumb": "/images/work/boiler/boiler-room-commercial-thumb.jpg",
+      "w": 1600,
+      "h": 1200
+    },
+    {
+      "full": "/images/work/boiler/boiler-closet-copper-work.jpg",
+      "thumb": "/images/work/boiler/boiler-closet-copper-work-thumb.jpg",
+      "w": 600,
+      "h": 800
+    }
+  ],
+  "repiping": [
+    {
+      "full": "/images/work/repiping/trenched-repipe-exterior.jpg",
+      "thumb": "/images/work/repiping/trenched-repipe-exterior-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/repiping/underground-copper-repipe.jpg",
+      "thumb": "/images/work/repiping/underground-copper-repipe-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/repiping/trenched-pipe-install.jpg",
+      "thumb": "/images/work/repiping/trenched-pipe-install-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/repiping/exterior-stub-out-install.jpg",
+      "thumb": "/images/work/repiping/exterior-stub-out-install-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/repiping/sump-ejector-pit.jpg",
+      "thumb": "/images/work/repiping/sump-ejector-pit-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/repiping/overhead-pipe-rough-in.jpg",
+      "thumb": "/images/work/repiping/overhead-pipe-rough-in-thumb.jpg",
+      "w": 576,
+      "h": 1024
+    }
+  ],
+  "hvac": [
+    {
+      "full": "/images/work/hvac/rooftop-hvac-units-aerial.jpg",
+      "thumb": "/images/work/hvac/rooftop-hvac-units-aerial-thumb.jpg",
+      "w": 1600,
+      "h": 1200
+    },
+    {
+      "full": "/images/work/hvac/rooftop-air-handler-units.jpg",
+      "thumb": "/images/work/hvac/rooftop-air-handler-units-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    },
+    {
+      "full": "/images/work/hvac/rooftop-condenser-copper-line.jpg",
+      "thumb": "/images/work/hvac/rooftop-condenser-copper-line-thumb.jpg",
+      "w": 1200,
+      "h": 1600
+    }
+  ]
+}

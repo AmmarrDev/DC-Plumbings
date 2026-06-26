@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-navy-900 font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  :focus-visible {
+    outline: 2px solid #0D7CFD;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .form-input {
+    @apply w-full rounded-md border border-steel-300 bg-white px-4 py-3 text-navy-900 placeholder:text-steel-400 transition-colors focus:border-brand-blue focus:outline-none;
+  }
+}
+
+@layer utilities {
+  .container-px {
+    @apply px-5 sm:px-8 lg:px-12;
+  }
+  .eyebrow {
+    @apply font-mono text-xs tracking-[0.2em] uppercase text-brand-blue font-semibold;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* nameplate plate texture used for service/spec cards */
+.plate {
+  background: linear-gradient(180deg, #121B2C 0%, #0C1320 100%);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.plate-light {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F4F6F8 100%);
+  border: 1px solid #E2E6EA;
+}
+
+.rivet {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 35% 35%, #C7CDD6, #6B7280 70%);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+/* ── Animated cycling bullet (hero section) ── */
+@keyframes fadeSlideUp {
+  0%   { opacity: 0; transform: translateY(12px); }
+  15%  { opacity: 1; transform: translateY(0); }
+  80%  { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-8px); }
+}
+.animate-cycle {
+  animation: fadeSlideUp 3s ease-in-out forwards;
+}
