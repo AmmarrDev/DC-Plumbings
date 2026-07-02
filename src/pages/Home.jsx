@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Phone, ArrowRight, CheckCircle2, Wrench } from "lucide-react";
 import { business, services, stats } from "../data/siteData";
-import TrustBar from "../components/TrustBar";
 import ServiceCard from "../components/ServiceCard";
 import GalleryGrid from "../components/GalleryGrid";
 import PipeRouteDiagram from "../components/PipeRouteDiagram";
@@ -10,6 +9,7 @@ import HeroPipeBackdrop from "../components/HeroPipeBackdrop";
 import MapEmbed from "../components/MapEmbed";
 import StatPlate from "../components/StatPlate";
 import CTASection from "../components/CTASection";
+import TrustBar from "../components/TrustBar";
 
 const bullets = [
   "Responsive & upfront communication",
@@ -37,10 +37,7 @@ function AnimatedBullets() {
   return (
     <div className="mt-4 flex items-center gap-2.5 h-7 overflow-hidden">
       <CheckCircle2 size={16} className="shrink-0 text-brand-blue" />
-      <span
-        key={key}
-        className="animate-cycle text-sm font-medium text-steel-300"
-      >
+      <span key={key} className="animate-cycle text-sm font-medium text-steel-300">
         {bullets[index]}
       </span>
     </div>
@@ -58,9 +55,7 @@ export default function Home() {
 
             {/* Eyebrow + Family badge row */}
             <div className="mb-4 flex flex-wrap items-center gap-3">
-              <p className="eyebrow">
-                {business.serviceAreaShort}
-              </p>
+              <p className="eyebrow">{business.serviceAreaShort}</p>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-rose-400/40 bg-rose-500/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-widest text-rose-300">
                 <Wrench size={11} className="text-rose-400" />
                 Family Owned &amp; Operated
@@ -73,7 +68,6 @@ export default function Home() {
               boiler experts
             </h1>
 
-            {/* Tagline — from the logo, right under the H1 */}
             <p className="mt-3 font-display text-base tracking-widest text-steel-400 sm:text-lg">
               {business.tagline}
             </p>
@@ -81,7 +75,9 @@ export default function Home() {
             <p className="mt-4 max-w-lg text-balance text-base leading-relaxed text-steel-400">
               Expert plumbing built on a foundation of integrity, transparency, reliable results, and a decade of experience.
             </p>
+
             <AnimatedBullets />
+
             <p className="mt-3 max-w-sm text-balance text-sm leading-relaxed text-steel-100">
               Email, text or call us anytime.
             </p>
@@ -103,17 +99,15 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="mt-10 flex flex-wrap gap-x-7 gap-y-2.5">
-              {business.badges.map((b) => (
-                <span
-                  key={b}
-                  className="flex items-center gap-2 text-sm text-steel-300"
-                >
-                  <CheckCircle2 size={15} className="text-brand-blue" />
-                  {b}
-                </span>
-              ))}
+            {/* Experience bar — inside hero */}
+            <div className="mt-8 inline-flex items-center gap-3 animate-pulse">
+              <span className="text-brand-blue font-bold text-lg">✦</span>
+              <span className="font-display text-sm uppercase tracking-wide text-steel-300">
+                10+ Years Trade Experience
+              </span>
+              <span className="text-brand-blue font-bold text-lg">✦</span>
             </div>
+
           </div>
 
           <div className="relative hidden lg:block">
@@ -125,16 +119,47 @@ export default function Home() {
               />
             </div>
             <div className="plate absolute -bottom-6 -left-8 max-w-[230px] rounded-lg p-5 shadow-plate">
-              <p className="font-mono text-2xl font-semibold text-white">
-                {stats[0].value}
-              </p>
+              <p className="font-mono text-2xl font-semibold text-white">{stats[0].value}</p>
               <p className="mt-1 text-xs text-steel-400">{stats[0].label}</p>
             </div>
           </div>
         </div>
       </section>
 
-      <TrustBar />
+      {/* Experience Bar */}
+      {/* <div className="border-y border-steel-200 bg-steel-100 overflow-hidden">
+        <div className="container-px mx-auto flex max-w-7xl items-center justify-center py-5">
+          <div className="flex items-center gap-3 animate-pulse">
+            <span className="text-brand-blue font-bold text-lg">✦</span>
+            <span className="font-display text-sm uppercase tracking-wide text-navy-800">
+              10+ Years Trade Experience
+            </span>
+            <span className="text-brand-blue font-bold text-lg">✦</span>
+          </div>
+        </div>
+      </div> */}
+      <TrustBar></TrustBar>
+
+      {/* TRUST STATEMENT */}
+      <section className="bg-white border-b border-steel-200">
+        <div className="container-px mx-auto max-w-7xl py-14 sm:py-16">
+          <div className="mx-auto max-w-4xl text-center">
+            <p className="mt-2 text-xl sm:text-2xl leading-relaxed font-display text-navy-900 text-balance">
+              &ldquo;We take the trust you place in us seriously. That&apos;s why we&apos;re
+              committed to treating every home with care and delivering
+              exceptional workmanship, complete customer satisfaction, and
+              peace of mind on every job.&rdquo;
+            </p>
+            <div className="mt-5 flex items-center justify-center gap-3">
+              <div className="h-px w-12 bg-brand-blue" />
+              <p className="font-mono text-xs uppercase tracking-widest text-steel-500">
+                {business.owner} &mdash; {business.name}
+              </p>
+              <div className="h-px w-12 bg-brand-blue" />
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* SERVICES PREVIEW */}
       <section className="container-px mx-auto max-w-7xl py-20 sm:py-24">
@@ -147,15 +172,11 @@ export default function Home() {
               built around your hot water
             </h2>
           </div>
-          <Link
-            to="/services"
-            className="flex shrink-0 items-center gap-1.5 font-mono text-sm uppercase tracking-wide text-brand-blue hover:underline"
-          >
+          <Link to="/services" className="flex shrink-0 items-center gap-1.5 font-mono text-sm uppercase tracking-wide text-brand-blue hover:underline">
             All services
             <ArrowRight size={15} />
           </Link>
         </div>
-
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
             <ServiceCard key={s.id} service={s} />
@@ -173,10 +194,7 @@ export default function Home() {
                 From compact closets to full commercial mechanical rooms
               </h2>
             </div>
-            <Link
-              to="/services#gallery"
-              className="flex shrink-0 items-center gap-1.5 font-mono text-sm uppercase tracking-wide text-brand-blue hover:underline"
-            >
+            <Link to="/services#gallery" className="flex shrink-0 items-center gap-1.5 font-mono text-sm uppercase tracking-wide text-brand-blue hover:underline">
               Full gallery
               <ArrowRight size={15} />
             </Link>
@@ -199,7 +217,6 @@ export default function Home() {
             the Peninsula and South Bay corridor &mdash; San Francisco, the
             Peninsula, and San Jose, with everywhere in between.
           </p>
-
           <div className="mt-12 grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
             <div className="mx-auto w-full max-w-sm">
               <PipeRouteDiagram className="w-full" />

@@ -14,7 +14,7 @@ export default function Contact() {
             Let's talk about your plumbing project
           </h1>
           <p className="mt-5 max-w-xl text-balance text-lg text-steel-400">
-            Fill out the form below for a free estimate, or call us directly
+            Fill out the form below to book a free estimate, or call us directly
             for urgent or emergency service.
           </p>
         </div>

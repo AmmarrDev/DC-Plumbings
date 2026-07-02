@@ -56,7 +56,7 @@ export default function About() {
           <p className="mt-5 max-w-xl text-balance text-lg text-steel-400">
             {business.name} is a licensed plumbing company serving the Bay
             Area from {business.serviceAreaShort}, with a focus on water
-            heating, boiler systems, and clean, code-correct copper
+            heating, boiler systems, and clean, code-correct
             workmanship.
           </p>
         </div>
@@ -87,7 +87,7 @@ export default function About() {
             <div className="mt-6 space-y-2 border-t border-white/10 pt-6 text-sm text-steel-400">
               <p>{business.license}</p>
               <p>Licensed &amp; Insured Plumbing Contractor</p>
-              <p>Serving {business.serviceAreaShort}, CA</p>
+              <p>Serving the Bay Area communities, CA</p>
             </div>
           </div>
 
@@ -118,7 +118,7 @@ export default function About() {
               homeowners alike.
             </p>
             <p className="mt-6 border-t border-steel-200 pt-5 text-sm leading-relaxed text-steel-500 italic">
-              <strong>We take pride in our work and stand by it even after the job is complete.</strong>
+              <strong>We take pride in our work and stand behind it even after the job is complete.</strong>
             </p>
           </div>
         </div>

@@ -5,9 +5,9 @@ const icons = [ShieldCheck, Clock, FileCheck2];
 
 export default function TrustBar() {
   return (
-    <div className="border-y border-steel-200 bg-steel-100">
-      <div className="container-px mx-auto flex max-w-7xl flex-col gap-4 py-5 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
-        <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
+    <div className="border-t border-b border-steel-200/70 bg-steel-100">
+      <div className="container-px mx-auto flex max-w-7xl flex-col gap-3 py-3 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
+        <div className="flex flex-wrap items-center gap-x-8 gap-y-2">
           {business.badges.map((badge, i) => {
             const Icon = icons[i % icons.length];
             return (

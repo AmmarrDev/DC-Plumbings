@@ -8,9 +8,13 @@ import { services } from "../data/siteData";
 // Account → General → Public Key
 // Email Services → your service → Service ID
 // Email Templates → your template → Template ID
-const EMAILJS_SERVICE_ID  = "service_gjqxw7q";   // e.g. "service_abc123"
-const EMAILJS_TEMPLATE_ID = "template_opbip69";  // e.g. "template_xyz789"
-const EMAILJS_PUBLIC_KEY  = "2oJHSJsoStg04DEGd";   // e.g. "AbCdEfGhIjKlMnOp"
+// const EMAILJS_SERVICE_ID  = "service_gjqxw7q";   // e.g. "service_abc123"
+// const EMAILJS_TEMPLATE_ID = "template_opbip69";  // e.g. "template_xyz789"
+// const EMAILJS_PUBLIC_KEY  = "2oJHSJsoStg04DEGd";   // e.g. "AbCdEfGhIjKlMnOp"
+
+const EMAILJS_SERVICE_ID  = "service_2funumj";   // e.g. "service_abc123"
+const EMAILJS_TEMPLATE_ID = "template_6z5n33t";  // e.g. "template_xyz789"
+const EMAILJS_PUBLIC_KEY  = "icTJ9clpiZP8zYGbq";   // e.g. "AbCdEfGhIjKlMnOp"
 // ───────────────────────────────────────────────────────────────────────────
 
 const initialForm = {
@@ -204,7 +208,7 @@ export default function ContactForm() {
         className="flex w-full items-center justify-center gap-2 rounded-md bg-blue-gradient py-3.5 font-display text-sm uppercase tracking-wide text-white shadow-md transition-transform hover:scale-[1.01] disabled:opacity-70 sm:w-auto sm:px-10"
       >
         {status === "loading" && <Loader2 size={16} className="animate-spin" />}
-        {status === "loading" ? "Sending..." : "Request Free Estimate"}
+        {status === "loading" ? "Sending..." : "Book Free Estimate"}
       </button>
     </form>
   );

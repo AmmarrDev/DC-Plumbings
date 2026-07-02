@@ -13,16 +13,15 @@ export default function CTASection() {
               Book a free estimate on your next plumbing project
             </h2>
             <p className="mt-4 max-w-lg text-steel-400">
-              Tell us what's going on and we'll get back to you with a clear,
-              upfront estimate no pressure, no surprises.
+              Tell us what's going on and we'll get back to you to schedule an upfront estimate. No pressure, no surprises.
             </p>
           </div>
-          <div className="flex flex-col gap-3 sm:flex-row">
+          {/* <div className="flex flex-col gap-3 sm:flex-row">
             <Link
               to="/contact"
               className="flex items-center justify-center gap-2 rounded-md bg-blue-gradient px-7 py-3.5 font-display text-sm uppercase tracking-wide text-white shadow-md transition-transform hover:scale-[1.03]"
             >
-              Book a Estimate
+              Book an Estimate
               <ArrowRight size={16} />
             </Link>
             <a
@@ -32,7 +31,7 @@ export default function CTASection() {
               <Phone size={16} className="text-brand-blue" />
               {business.phone}
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -87,15 +87,16 @@ export default function PipeRouteDiagram({ className = "" }) {
       {/* city nodes */}
       {points.map((p, i) => {
         const isEnd = i === 0 || i === points.length - 1;
+        const isHQ = p.id === "hq";
         return (
           <g key={p.id}>
             <circle cx={p.x} cy={p.y} r="22" fill="url(#nodeGlow)" />
             <circle
               cx={p.x}
               cy={p.y}
-              r={isEnd ? 9 : 6.5}
-              fill="#0A0F1A"
-              stroke={isEnd ? "#0D7CFD" : "#C7CDD6"}
+              r={isEnd ? 9 : isHQ ? 8 : 6.5}
+              fill={isHQ ? "#0D7CFD" : "#0A0F1A"}
+              stroke={isEnd ? "#0D7CFD" : isHQ ? "#ffffff" : "#C7CDD6"}
               strokeWidth="3"
             />
             <text
@@ -103,8 +104,8 @@ export default function PipeRouteDiagram({ className = "" }) {
               y={p.y + 5}
               className="font-mono"
               fontSize="15"
-              fill={isEnd ? "#FFFFFF" : "#9CA4B0"}
-              fontWeight={isEnd ? 700 : 500}
+              fill={isEnd ? "#FFFFFF" : isHQ ? "#0D7CFD" : "#9CA4B0"}
+              fontWeight={isEnd || isHQ ? 700 : 500}
             >
               {p.name}
             </text>

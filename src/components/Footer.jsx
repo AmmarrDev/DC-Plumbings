@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <img
               src="/images/logo/header.png"
-              alt="DC Plumbing Solutions"
+              alt="DC Plumbing Solutions LLC"
               className="h-16 w-auto"
             />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-steel-400">
@@ -91,14 +91,14 @@ export default function Footer() {
               to="/contact"
               className="mt-5 inline-block rounded-md bg-blue-gradient px-5 py-2.5 font-display text-sm uppercase tracking-wide text-white shadow-md"
             >
-              Book a Estimate
+              Book an Estimate
             </Link>
           </div>
         </div>
 
         <div className="mt-14 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-steel-500 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            &copy; {new Date().getFullYear()} {business.name}. All rights
+            &copy; {new Date().getFullYear()} {business.name} LLC. All rights
             reserved.
           </p>
           <p>

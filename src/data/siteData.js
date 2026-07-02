@@ -7,7 +7,7 @@ export const business = {
   ownerTitle: "Owner & Licensed Plumber",
   phone: "(650) 706-8407",
   phoneHref: "tel:+16507068407",
-  email: "dcplumbingsolutionsllc@gmail.com",
+  email: "info@dc-plumbingsolutions.com",
   license: "CL #1148346",
   tagline: "Trusted expertise. Dependable service.",
   serviceAreaShort: "San Francisco to San Jose",
@@ -44,6 +44,21 @@ export const services = [
       "Annual flush, descaling & maintenance",
     ],
     category: "water-heating",
+  },
+  {
+    id: "residential",
+    title: "Residential Plumbing",
+    summary:
+      "Everyday repairs and installs of sinks, disposals, fixtures, supply lines, hose bibs and more.",
+    detail:
+      "The plumbing that keeps a household running: kitchen and bath fixtures, garbage disposals, supply valves, drain repair, exterior hose bibs, and much more. We show up on time, explain the work plainly, and leave the space clean.",
+    bullets: [
+      "Sink, faucet & disposal installation",
+      "Supply line & shut-off valve repair",
+      "Drain & fixture troubleshooting",
+      "Exterior hose bibs, and much more",
+    ],
+    category: "residential",
   },
   {
     id: "boiler",
@@ -90,21 +105,6 @@ export const services = [
     category: "commercial",
   },
   {
-    id: "residential",
-    title: "Residential Plumbing",
-    summary:
-      "Everyday repairs and installs of sinks, disposals, fixtures, supply lines, hose bibs and more.",
-    detail:
-      "The plumbing that keeps a household running: kitchen and bath fixtures, garbage disposals, supply valves, drain repair, exterior hose bibs, and much more. We show up on time, explain the work plainly, and leave the space clean.",
-    bullets: [
-      "Sink, faucet & disposal installation",
-      "Supply line & shut-off valve repair",
-      "Drain & fixture troubleshooting",
-      "Exterior hose bibs, and much more",
-    ],
-    category: "residential",
-  },
-  {
     id: "installation-repiping",
     title: "Installation & Repiping",
     summary:
@@ -133,19 +133,28 @@ export const serviceCategoryMeta = {
 // Waypoints for the signature pipe-route service area map.
 // Coordinates are plain x/y on a 0-1000 x 0-1200 schematic canvas (not geographic).
 export const serviceAreaRoute = [
-  { id: "sf", name: "San Francisco", note: "Headquarters area", x: 150, y: 80 },
-  { id: "ssf", name: "South San Francisco", x: 230, y: 220 },
-  { id: "sanmateo", name: "San Mateo", x: 300, y: 360 },
-  { id: "redwoodcity", name: "Redwood City", x: 360, y: 480 },
-  { id: "paloalto", name: "Palo Alto", x: 420, y: 600 },
-  { id: "mountainview", name: "Mountain View", x: 470, y: 700 },
-  { id: "sunnyvale", name: "Sunnyvale", x: 510, y: 800 },
-  { id: "santaclara", name: "Santa Clara", x: 540, y: 900 },
-  { id: "sanjose", name: "San Jose", x: 590, y: 1020 },
+  { id: "sf",           name: "San Francisco",       x: 80,  y: 80  },
+  { id: "ssf",          name: "South San Francisco",  x: 140, y: 190 },
+  { id: "sanmateo",     name: "San Mateo",            x: 200, y: 300 },
+  { id: "hq",           name: "Headquarters",    x: 260, y: 410 },
+  { id: "redwoodcity",  name: "Redwood City",         x: 320, y: 520 },
+  { id: "paloalto",     name: "Palo Alto",            x: 370, y: 610 },
+  { id: "mountainview", name: "Mountain View",        x: 420, y: 700 },
+  { id: "sunnyvale",    name: "Sunnyvale",            x: 465, y: 790 },
+  { id: "santaclara",   name: "Santa Clara",          x: 510, y: 880 },
+  { id: "sanjose",      name: "San Jose",             x: 555, y: 990 },
 ];
-
+// export const serviceAreaRoute = [
+//   { id: "sf", name: "San Francisco", note: "Headquarters area", x: 150, y: 80 },
+//   { id: "redwoodcity", name: "Redwood City", x: 230, y: 220 },
+//   { id: "paloalto", name: "Palo Alto", x: 300, y: 360 },
+//   { id: "mountainview", name: "Mountain View", x: 360, y: 480 },
+//   { id: "sunnyvale", name: "Sunnyvale", x: 420, y: 600 },
+//   { id: "santaclara", name: "Santa Clara", x: 470, y: 700 },
+//   { id: "sanjose", name: "San Jose", x: 550, y: 900 },
+// ];
 export const stats = [
-  { value: "10+", label: "Years combined trade experience" },
+  { value: "10+", label: "Years trade experience" },
   { value: "CL #1148346", label: "California licensed & insured" },
   { value: "SF \u2192 SJ", label: "Bay Area service corridor" },
   { value: "24/7", label: "Emergency call response" },
